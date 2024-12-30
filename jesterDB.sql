@@ -11,7 +11,7 @@ CREATE TABLE persona (
     id SERIAL PRIMARY KEY, 
     name TEXT NOT NULL,
     description TEXT,
-    image BYTEA
+    image TEXT
 );
 
 CREATE TABLE user_personas (
